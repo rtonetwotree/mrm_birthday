@@ -7,6 +7,8 @@ const clues = [
     { clue: "Go to the hotel on 6th Avenue where the Beatles stayed in 1965 and 1966, and where they recieved guests such as Bob Dylan and The Supremes. How many total diamonds are in the crest above the entrance to the hotel?", answer: "6" },
     { clue: "Go to the first hotel the Beatles stayed at in the U.S., at which they arrived shortly after a press conference at JFK Airport on February 7, 1964. Find the entrance that faces the park. What is written on the awning/overhang to the west of the entrance?", answer: "The Oak Room" },
     { clue: "Go to the hotel where John and Yoko first moved after getting married in 1969. What is the first word of the second line of text on the historical landmark plaque near the hotel entrance?", answer: "SOPHISTICATED" },
+    { clue: "Go to the hotel where John and Yoko first moved after getting married in 1969. What is the first word of the second line of text on the historical landmark plaque near the hotel entrance?", answer: "SOPHISTICATED" },
+    { clue: "Go to the hotel where John and Yoko first moved after getting married in 1969. What is the first word of the second line of text on the historical landmark plaque near the hotel entrance?", answer: "SOPHISTICATED" },
     // Add more clues as needed
 ];
 
