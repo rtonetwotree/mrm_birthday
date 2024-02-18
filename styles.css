@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* A nod to the classic Beatles 'Black and White' era */
+    color: #FFF; /* For contrast */
+    font-family: 'Arial', sans-serif; /* Consider a 60s-inspired font if available */
+}
+
+#mission-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #222; /* Dark theme for elegance and contrast with Beatles imagery */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7); /* Yellow glow for a 'Yellow Submarine' vibe */
+    border: 2px solid #FFD700; /* Gold border for a touch of 'Abbey Road' elegance */
+}
+
+h1 {
+    color: #FFD700; /* Gold color for headings */
+    text-align: center;
+    font-size: 24px;
+}
+
+#clue {
+    font-size: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #FFD700; /* Gold underline for clues */
+    padding-bottom: 10px;
+}
+
+#answer {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFF; /* White border for input */
+    background-color: #333; /* Darker background for input for contrast */
+    color: #FFF; /* White text for input */
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFD700; /* Yellow button */
+    color: #000; /* Black text for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #EAC117; /* Darker yellow on hover */
+}
+
+#feedback {
+    margin-top: 20px;
+    color: #FFA500; /* Orange for feedback, to keep with the colorful theme */
+}
+
+/* Optionally, if you want to add a background image */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Fallback color */
+    color: #FFF;
+    font-family: 'Arial', sans-serif;
+    background-image: url('beatles.jpeg'); /* Reference your Beatles image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
