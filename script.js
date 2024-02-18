@@ -1,7 +1,12 @@
 let currentClueIndex = 0;
 const clues = [
-    { clue: "Go to the hotel where the Beatles stayed the first time they came to America. What is inscribed above the entranceway?", answer: "answer" },
-    { clue: "Find the John Lennon Imagine mosiac in central park. How many benches surround it?", answer: "answer" },
+    { clue: "Find the Imagine mosiac near Strawberry Fields. One of the green benches closest to the mosaic is dedicated to Bruce Kelly. What was Bruce Kelly's Occupation?", answer: "Landscape Architect" },
+    { clue: "Go to the building where John lived from 1973 until 1980, and where Yoko still lives. How many gates are on the archway where John was shot?", answer: "2" },
+    { clue: "Go to the place that hosted the Beatles’ debut performance in the U.S. in 1964. (Hint: This performance was seen by 73 million people). What is the name written in neon on the shack outside the entrance to this venue?", answer: "Angelo" },
+    { clue: "Find the famed concert hall where the Beatles played two sold-out shows on February 12, 1964. What is the slogan on the glass doors on the 7th-Avenue-facing main entrance to the building?", answer: "A Story in Every Note" },
+    { clue: "Go to the hotel on 6th Avenue where the Beatles stayed in 1965 and 1966, and where they recieved guests such as Bob Dylan and The Supremes. How many total diamonds are in the crest above the entrance to the hotel?", answer: "6" },
+    { clue: "Go to the first hotel the Beatles stayed at in the U.S., at which they arrived shortly after a press conference at JFK Airport on February 7, 1964. Find the entrance that faces the park. What is written on the awning/overhang to the west of the entrance?", answer: "The Oak Room" },
+    { clue: "Go to the hotel where John and Yoko first moved after getting married in 1969. What is the first word of the second line of text on the historical landmark plaque near the hotel entrance?", answer: "SOPHISTICATED" },
     // Add more clues as needed
 ];
 
