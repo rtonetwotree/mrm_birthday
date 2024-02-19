@@ -17,19 +17,22 @@ function checkAnswer() {
     const correctAnswer = clues[currentClueIndex].answer;
 
     if (userAnswer.trim() === correctAnswer) {
-        document.getElementById("feedback").textContent = "I Feel Fine! George says \"Great Job Mary!\" Decoding next clue...";
-        currentClueIndex++;
-        if (currentClueIndex < clues.length) {
+        // Check if the current clue is the last one
+        if (currentClueIndex === clues.length - 1) {
+            // Final clue instead of the mission accomplished message
+            document.getElementById("mission-container").innerHTML = "<h1>Final Clue!</h1><p>You completed your mission! Now go to 241 W 12th St, New York, NY 10014 and find the second half of your birthday present hidden under the stairs.</p>";
+        } else {
+            document.getElementById("feedback").textContent = "I Feel Fine! George says \"Great Job Mary!\" Decoding next clue...";
+            currentClueIndex++;
             setTimeout(() => {
                 loadClue();
             }, 10000); // Give a bit more time for the user to read the success message
-        } else {
-            document.getElementById("mission-container").innerHTML = "<h1>Mission Accomplished!</h1><p>You've successfully completed your mission. Coo-gratulations, Agent!</p>";
         }
     } else {
         document.getElementById("feedback").textContent = "Help! Ringo says \"you can do it Mary! try again!\"";
     }
 }
+
 
 function loadClue() {
     if (currentClueIndex < clues.length) {
