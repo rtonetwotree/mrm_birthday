@@ -17,17 +17,17 @@ function checkAnswer() {
     const correctAnswer = clues[currentClueIndex].answer;
 
     if (userAnswer.trim() === correctAnswer) {
-        document.getElementById("feedback").textContent = "Coo-rrect! George says \"Great Job Mary!\" Decoding next clue...";
+        document.getElementById("feedback").textContent = "I Feel Fine! George says \"Great Job Mary!\" Decoding next clue...";
         currentClueIndex++;
         if (currentClueIndex < clues.length) {
             setTimeout(() => {
                 loadClue();
-            }, 2000); // Give a bit more time for the user to read the success message
+            }, 10000); // Give a bit more time for the user to read the success message
         } else {
             document.getElementById("mission-container").innerHTML = "<h1>Mission Accomplished!</h1><p>You've successfully completed your mission. Coo-gratulations, Agent!</p>";
         }
     } else {
-        document.getElementById("feedback").textContent = "Help! that answer is In-coo-rrect. Ringo says \"you can do it Mary! try again!\"";
+        document.getElementById("feedback").textContent = "Help! Ringo says \"you can do it Mary! try again!\"";
     }
 }
 
